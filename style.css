@@ -1,0 +1,30 @@
+body {
+    background-image: 90%;
+    background-size: cover;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#snap {
+    font-size: 20px;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px rgb(251, 251, 251);
+    }
+
+    to {
+        box-shadow: 1px 1px 38px rgb(0, 239, 247);
+    }
+}
+
